@@ -60,7 +60,23 @@ video {
 }
 
 /* 01. Sélecteurs CSS */
-
+h2 {
+  font-size: 25px;
+}
+h2,
+h3 {
+  font-weight: 700;
+}
+.section .year {
+  color: red;
+}
+.section h3 {
+  text-decoration: underline;
+}
+h2.category,
+h3.year {
+  font-style: italic;
+}
 /* 02. Centrer horizontalement */
 
 .card {
@@ -80,6 +96,16 @@ video {
   padding: 10px 20px;
 }
 
+.card,
+.button {
+  margin: auto;
+  text-align: center;
+}
+
+.button-wrapper .button {
+  width: fit-content;
+}
+
 /* 03. Centrer verticalement */
 
 .link {
@@ -97,4 +123,27 @@ video {
   background: #ccc;
 }
 
+.link {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.calltoaction {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 /* 04. Display inline et block */
+
+h2.article-title {
+  display: inline;
+}
+
+p.article-summary {
+  display: inline;
+}
+
+strong {
+  display: block;
+}
